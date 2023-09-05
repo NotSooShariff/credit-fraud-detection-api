@@ -51,7 +51,10 @@ Follow these steps to set up and run the Credit Card Fraud Detection Flask API l
 
    This will start the server on `http://127.0.0.1:5000`.
 
-5. To expose the API to the web, you can use [ngrok](https://ngrok.com/). In a separate terminal, run:
+5. To expose the API to the web, you can use [ngrok](https://ngrok.com/). After registering for Ngrok, go to the [Setup Page](https://dashboard.ngrok.com/get-started/setup) and download and unzip the executable.
+6. Launch the executable. Once the terminal pops, Configure the auth token by using the `ngrok config add-authtoken` command. Your auth token will be displayed in the same dashboard.
+
+7. You can now expose the port to the web with a secure tunnel, by using:
 
    ```bash
    ngrok http 5000
@@ -59,7 +62,6 @@ Follow these steps to set up and run the Credit Card Fraud Detection Flask API l
 
    Use the URL under "Forwarding" in ngrok to make API calls.
 
-Certainly! Here's the machine learning model explanation for the "Credit Card Fraud Detection" project based on the provided code:
 
 ## 🧠 Machine Learning Model Explanation
 
