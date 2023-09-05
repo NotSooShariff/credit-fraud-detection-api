@@ -181,7 +181,8 @@ Prediction: 0.0 --> Not Fraud
 
 ## 🙏 Acknowledgments
 
-
+Much of what I learned and applied in this project was learnt from [Gregg Hogg's](https://www.youtube.com/GregHogg) YouTube channel. His tutorials and content in machine learning and data science significantly influenced the development.
 
 ## 🤝 Contributions Welcome
 
+Contributions to this project are welcome! If you have ideas for improvements, bug fixes, or new features, please feel free to fork this repository, make your changes, and submit a pull request. Let's collaborate to make this project even better.
