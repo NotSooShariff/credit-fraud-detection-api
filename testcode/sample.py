@@ -2,6 +2,8 @@ import requests
 import numpy as np
 import json
 
+ngheaders = {'ngrok-skip-browser-warning': 'true'} 
+
 # Define the data as a dictionary with all features
 data = {
     "V1": float(-1.3598071336738),
@@ -43,7 +45,7 @@ data = {key: float(value) if isinstance(value, (np.float32, np.float64)) else va
 serialized_data = json.dumps(data)
 
 # Make a POST request to the API
-response = requests.post('http://localhost:5000/predict', data=serialized_data, headers={'Content-Type': 'application/json'})
+response = requests.post('{YourNgrokURL}/predict', data=serialized_data, headers=ngheaders)
 
 # Print the response
 print(response.json())
