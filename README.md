@@ -60,7 +60,7 @@ Follow these steps to set up and run the Credit Card Fraud Detection Flask API l
    ngrok http 5000
    ```
 
-   Use the URL under "Forwarding" in ngrok to make API calls.
+   Use the URL under "Forwarding" in Ngrok to make API calls.
 
 
 ## 🧠 Machine Learning Model Explanation
